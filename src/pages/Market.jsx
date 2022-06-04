@@ -46,7 +46,7 @@ const Market = () => {
 
   return (
     <>
-      <CommonSection title={"MarketPlace"} />
+      <CommonSection title={"Market"} />
 
       <section>
         <Container>
@@ -56,30 +56,30 @@ const Market = () => {
                 <div className="filter__left d-flex align-items-center gap-5">
                   <div className="all__category__filter">
                     <select onChange={handleCategory}>
-                      <option>All Categories</option>
-                      <option value="art">Art</option>
-                      <option value="music">Music</option>
-                      <option value="domain-name">Domain Name</option>
-                      <option value="virtual-world">Virtual World</option>
-                      <option value="trending-card">Trending Cards</option>
+                      <option>Bütün kateqoriyalar</option>
+                      <option value="art">Rəsm</option>
+                      <option value="music">Musiqi</option>
+                      <option value="domain-name">Domain Adı</option>
+                      <option value="virtual-world">Virtual Dünya</option>
+                      <option value="trending-card">Trendlər</option>
                     </select>
                   </div>
 
                   <div className="all__items__filter">
                     <select onChange={handleItems}>
-                      <option>All Items</option>
-                      <option value="single-item">Single Item</option>
-                      <option value="bundle">Bundle</option>
+                      <option>Hamısı</option>
+                      <option value="single-item">Tək element</option>
+                      <option value="bundle">Bağlama</option>
                     </select>
                   </div>
                 </div>
 
                 <div className="filter__right">
                   <select onChange={handleSort}>
-                    <option>Sort By</option>
-                    <option value="high">High Rate</option>
-                    <option value="mid">Mid Rate</option>
-                    <option value="low">Low Rate</option>
+                    <option>Sırala</option>
+                    <option value="high">Yüksək reytinq</option>
+                    <option value="mid">Orta reytinq</option>
+                    <option value="low">Aşağı reytinq</option>
                   </select>
                 </div>
               </div>
