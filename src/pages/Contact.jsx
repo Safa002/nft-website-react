@@ -15,12 +15,12 @@ const Contact = () => {
 
   return (
     <>
-      <CommonSection title="Contact" />
+      <CommonSection title="Əlaqə" />
       <section>
         <Container>
           <Row>
             <Col lg="6" md="6" className="m-auto text-center">
-              <h2>Drop a Message</h2>
+              <h2>Mesaj daxil edin</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus ipsum aperiam cumque fugit suscipit animi natus
@@ -31,28 +31,28 @@ const Contact = () => {
                   <div className="form__input">
                     <input
                       type="text"
-                      placeholder="Enter your name"
+                      placeholder="Adınızı daxil edin"
                       ref={nameRef}
                     />
                   </div>
                   <div className="form__input">
                     <input
                       type="email"
-                      placeholder="Enter your email"
+                      placeholder="Email daxil edin"
                       ref={emailRef}
                     />
                   </div>
                   <div className="form__input">
                     <input
                       type="text"
-                      placeholder="Enter subject"
+                      placeholder="Mövzunu daxil edin"
                       ref={subjectRef}
                     />
                   </div>
                   <div className="form__input">
                     <textarea
                       rows="7"
-                      placeholder="Write message"
+                      placeholder="Mesaj daxil edin"
                       ref={messageRef}
                     ></textarea>
                   </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                       marginTop: "20px",
                     }}
                   >
-                    Send a Message
+                    Mesajı Göndər
                   </button>
                 </form>
               </div>
