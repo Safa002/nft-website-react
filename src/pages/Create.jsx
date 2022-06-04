@@ -21,13 +21,13 @@ const item = {
 const Create = () => {
   return (
     <>
-      <CommonSection title="Create Item" />
+      <CommonSection title="Yarat" />
 
       <section>
         <Container>
           <Row>
             <Col lg="3" md="4" sm="6">
-              <h5 className="mb-4 text-light">Preview Item</h5>
+              <h5 className="mb-4 text-light">İlkin Baxış</h5>
               <NftCard item={item} />
             </Col>
 
@@ -35,47 +35,47 @@ const Create = () => {
               <div className="create__item">
                 <form>
                   <div className="form__input">
-                    <label htmlFor="">Upload File</label>
+                    <label htmlFor="">Fayl yüklə</label>
                     <input type="file" className="upload__input" />
                   </div>
 
                   <div className="form__input">
-                    <label htmlFor="">Price</label>
+                    <label htmlFor="">Qiymət</label>
                     <input
                       type="number"
-                      placeholder="Enter price for one item (ETH)"
+                      placeholder="Bir element üçün qiymət daxil edin (ETH)"
                     />
                   </div>
 
                   <div className="form__input">
-                    <label htmlFor="">Minimum Bid</label>
-                    <input type="number" placeholder="Enter minimum bid" />
+                    <label htmlFor="">Minimum Təklif</label>
+                    <input type="number" placeholder="Minimum təklifi daxil edin" />
                   </div>
 
                   <div className=" d-flex align-items-center gap-4">
                     <div className="form__input w-50">
-                      <label htmlFor="">Starting Date</label>
+                      <label htmlFor="">Başlanğıc tarixi</label>
                       <input type="date" />
                     </div>
 
                     <div className="form__input w-50">
-                      <label htmlFor="">Expiration Date</label>
+                      <label htmlFor="">Son tarix</label>
                       <input type="date" />
                     </div>
                   </div>
 
                   <div className="form__input">
-                    <label htmlFor="">Title</label>
-                    <input type="text" placeholder="Enter title" />
+                    <label htmlFor="">Başlıq</label>
+                    <input type="text" placeholder="Başlıq daxil edin" />
                   </div>
 
                   <div className="form__input">
-                    <label htmlFor="">Description</label>
+                    <label htmlFor="">Açıqlama</label>
                     <textarea
                       name=""
                       id=""
                       rows="7"
-                      placeholder="Enter description"
+                      placeholder="Açıqlama daxil edin"
                       className="w-100"
                     ></textarea>
                   </div>
