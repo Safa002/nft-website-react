@@ -6,25 +6,25 @@ import "./step-section.css";
 
 const STEP__DATA = [
   {
-    title: "Setup your wallet",
+    title: "Wallet-ə Qoşul",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
     icon: "ri-wallet-line",
   },
 
   {
-    title: "Create your collection",
+    title: "Kolleksiya Yarat",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
     icon: "ri-layout-masonry-line",
   },
 
   {
-    title: "Add your NFTs",
+    title: "NFT daxil et",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
     icon: "ri-image-line",
   },
 
   {
-    title: "List them for sale",
+    title: "Satış üşün sırala",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
     icon: "ri-list-check",
   },
@@ -36,7 +36,7 @@ const StepSection = () => {
       <Container>
         <Row>
           <Col lg="12" className="mb-4">
-            <h3 className="step__title">Create and sell your NFTs</h3>
+            <h3 className="step__title">NFT-lərini yarat və sat</h3>
           </Col>
 
           {STEP__DATA.map((item, index) => (
