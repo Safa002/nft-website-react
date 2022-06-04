@@ -28,12 +28,12 @@ const NftCard = (props) => {
 
           <div className="creator__info w-100 d-flex align-items-center justify-content-between">
             <div>
-              <h6>Created By</h6>
+              <h6>Müəllif</h6>
               <p>{creator}</p>
             </div>
 
             <div>
-              <h6>Current Bid</h6>
+              <h6>Hazırki Təklif</h6>
               <p>{currentBid} ETH</p>
             </div>
           </div>
@@ -44,13 +44,13 @@ const NftCard = (props) => {
             className="bid__btn d-flex align-items-center gap-1"
             onClick={() => setShowModal(true)}
           >
-            <i class="ri-shopping-bag-line"></i> Place Bid
+            <i class="ri-shopping-bag-line"></i> Təklif et
           </button>
 
           {showModal && <Modal setShowModal={setShowModal} />}
 
           <span className="history__link">
-            <Link to="#">View History</Link>
+            <Link to="#">Tarixçə</Link>
           </span>
         </div>
       </div>
