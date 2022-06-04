@@ -34,13 +34,13 @@ const wallet__data = [
 const Wallet = () => {
   return (
     <>
-      <CommonSection title="Connect Wallet" />
+      <CommonSection title="Wallet" />
       <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <div className="w-50 m-auto">
-                <h3 className="text-light">Connect your wallet</h3>
+                <h3 className="text-light">Wallet-ə qoşul</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Minima numquam nisi, quam obcaecati a provident voluptas sequi
